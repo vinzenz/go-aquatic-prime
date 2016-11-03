@@ -5,3 +5,7 @@ go-auqatic-prime can be used to generate and validate those licenses.
 Documentation can be found at https://godoc.org/github.com/vinzenz/go-aquatic-prime
 
 License is BSD-2 Clause
+
+
+For more information and implementations in other languages look here: 
+https://github.com/bdrister/AquaticPrime
