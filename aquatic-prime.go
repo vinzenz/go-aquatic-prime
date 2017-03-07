@@ -134,6 +134,7 @@ func (self *License) Verify(pubKey *rsa.PublicKey) error {
 		if err := rsa.VerifyPKCS1v15(pubKey, crypto.Hash(0), self.hash(), sigData); err != nil {
 			return InvalidSignatureError
 		}
+		return nil
 	}
 	return MissingSignatureError
 }
